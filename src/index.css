@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #f9f9f7;
+  color: #1a1c1b;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #1a1c1b;
+}
+
+input,
+textarea,
+select {
+  font-family: "DM Sans", sans-serif;
+}
+
+::placeholder {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  color: #75777e;
+}
