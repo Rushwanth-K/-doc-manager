@@ -7,6 +7,10 @@ import SelectTemplate from "./pages/SelectTemplate";
 import EnterContent from "./pages/EnterContent";
 import ReviewEmail from "./pages/ReviewEmail";
 import Success from "./pages/Success";
+import TemplateLibrary from "./pages/TemplateLibrary";
+import UploadTemplate from "./pages/UploadTemplate";
+import TemplateEditor from "./pages/TemplateEditor";
+import DocumentHistory from "./pages/DocumentHistory";
 
 const App: React.FC = () => {
   return (
@@ -50,6 +54,38 @@ const App: React.FC = () => {
             element={
               <Layout>
                 <Success />
+              </Layout>
+            }
+          />
+          <Route
+            path="/templates"
+            element={
+              <Layout>
+                <TemplateLibrary />
+              </Layout>
+            }
+          />
+          <Route
+            path="/templates/upload"
+            element={
+              <Layout>
+                <UploadTemplate />
+              </Layout>
+            }
+          />
+          <Route
+            path="/templates/editor"
+            element={
+              <Layout>
+                <TemplateEditor />
+              </Layout>
+            }
+          />
+          <Route
+            path="/history"
+            element={
+              <Layout>
+                <DocumentHistory />
               </Layout>
             }
           />

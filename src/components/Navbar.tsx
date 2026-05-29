@@ -66,33 +66,30 @@ const Navbar = () => {
         >
           Home
         </Link>
-        <a
-          href="#"
+        <Link
+          to="/history"
           style={linkStyle}
           onMouseEnter={handleLinkHover}
           onMouseLeave={handleLinkLeave}
-          onClick={(e) => e.preventDefault()}
         >
-          Team
-        </a>
-        <a
-          href="#"
+          Documents
+        </Link>
+        <Link
+          to="/templates/editor"
           style={linkStyle}
           onMouseEnter={handleLinkHover}
           onMouseLeave={handleLinkLeave}
-          onClick={(e) => e.preventDefault()}
         >
-          Support
-        </a>
-        <a
-          href="#"
+          Editor
+        </Link>
+        <Link
+          to="/templates"
           style={linkStyle}
           onMouseEnter={handleLinkHover}
           onMouseLeave={handleLinkLeave}
-          onClick={(e) => e.preventDefault()}
         >
-          Settings
-        </a>
+          Library
+        </Link>
       </div>
     </nav>
   );

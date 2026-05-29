@@ -135,7 +135,7 @@ export default function Dashboard() {
           style={getCardStyle("view-history")}
           onMouseEnter={() => setHoveredCard("view-history")}
           onMouseLeave={() => setHoveredCard(null)}
-          onClick={() => handleCardClick("#")}
+          onClick={() => handleCardClick("/history")}
         >
           <div style={iconWrapperStyle}>
             <IconHistory size={28} color="#ffffff" />
@@ -154,7 +154,7 @@ export default function Dashboard() {
           style={getCardStyle("manage-templates")}
           onMouseEnter={() => setHoveredCard("manage-templates")}
           onMouseLeave={() => setHoveredCard(null)}
-          onClick={() => handleCardClick("#")}
+          onClick={() => handleCardClick("/templates")}
         >
           <div style={iconWrapperStyle}>
             <IconClipboard size={28} color="#ffffff" />
