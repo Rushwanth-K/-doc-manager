@@ -1,0 +1,41 @@
+{
+  "templates": [
+    {
+      "id": 1,
+      "name": "Project Update Letter",
+      "category": "Business",
+      "placeholderSchema": ["Recipient Name", "Project Name", "Date", "Main Goal", "Milestone 1", "Milestone 2", "Milestone 3", "Department", "Deadline Date", "Document Name", "Proposed Date", "Your Full Name", "Your Job Title", "Company Name", "Phone Number"]
+    },
+    {
+      "id": 2,
+      "name": "Client Progress Report",
+      "category": "Reports",
+      "placeholderSchema": ["Recipient Name", "Project Name", "Date", "Main Goal", "Milestone 1", "Milestone 2", "Milestone 3", "Department", "Deadline Date", "Document Name", "Proposed Date", "Your Full Name", "Your Job Title", "Company Name", "Phone Number"]
+    },
+    {
+      "id": 3,
+      "name": "Milestone Summary Letter",
+      "category": "Milestone",
+      "placeholderSchema": ["Recipient Name", "Project Name", "Date", "Main Goal", "Milestone 1", "Milestone 2", "Milestone 3", "Department", "Deadline Date", "Document Name", "Proposed Date", "Your Full Name", "Your Job Title", "Company Name", "Phone Number"]
+    },
+    {
+      "id": 4,
+      "name": "Weekly Status Update",
+      "category": "Weekly",
+      "placeholderSchema": ["Recipient Name", "Project Name", "Date", "Main Goal", "Milestone 1", "Milestone 2", "Milestone 3", "Department", "Deadline Date", "Document Name", "Proposed Date", "Your Full Name", "Your Job Title", "Company Name", "Phone Number"]
+    },
+    {
+      "id": 5,
+      "name": "Project Completion Notice",
+      "category": "Completion",
+      "placeholderSchema": ["Recipient Name", "Project Name", "Date", "Main Goal", "Milestone 1", "Milestone 2", "Milestone 3", "Department", "Deadline Date", "Document Name", "Proposed Date", "Your Full Name", "Your Job Title", "Company Name", "Phone Number"]
+    },
+    {
+      "id": 6,
+      "name": "Stakeholder Update Letter",
+      "category": "Executive",
+      "placeholderSchema": ["Recipient Name", "Project Name", "Date", "Main Goal", "Milestone 1", "Milestone 2", "Milestone 3", "Department", "Deadline Date", "Document Name", "Proposed Date", "Your Full Name", "Your Job Title", "Company Name", "Phone Number"]
+    }
+  ],
+  "history": []
+}
