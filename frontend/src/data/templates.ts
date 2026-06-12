@@ -6,7 +6,7 @@ export type Template = {
 }
 
 export async function fetchTemplates(): Promise<Template[]> {
-  const res = await fetch('http://localhost:3000/api/templates')
+ const res = await fetch('https://doc-manager-worker.rushwanth93.workers.dev/api/templates')
   const data = await res.json()
   return data
 }
